@@ -1,0 +1,38 @@
+{
+ "total_params": 799233,
+ "trainable_params": 799233,
+ "n_linear_layers": 14,
+ "n_square_linear_layers": 12,
+ "square_weight_params": 786432,
+ "square_weight_fraction": 0.9839833940790733,
+ "by_role": {
+  "W_Q": {
+   "count": 2,
+   "params": 131584
+  },
+  "W_K": {
+   "count": 2,
+   "params": 131584
+  },
+  "W_V": {
+   "count": 2,
+   "params": 131584
+  },
+  "W_O": {
+   "count": 2,
+   "params": 131584
+  },
+  "feed_forward": {
+   "count": 4,
+   "params": 263168
+  },
+  "embedding": {
+   "count": 1,
+   "params": 6912
+  },
+  "output_head": {
+   "count": 1,
+   "params": 257
+  }
+ }
+}

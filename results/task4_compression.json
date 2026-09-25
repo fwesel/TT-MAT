@@ -1,0 +1,81 @@
+{
+ "spec": "square",
+ "n_modes": 4,
+ "by_rank": {
+  "2": {
+   "n_layers": 12,
+   "paths": [
+    "encoder.layers.0.self_attn.linears.0",
+    "encoder.layers.0.self_attn.linears.1",
+    "encoder.layers.0.self_attn.linears.2",
+    "encoder.layers.0.self_attn.linears.3",
+    "encoder.layers.0.feed_forward.linears.0",
+    "encoder.layers.0.feed_forward.linears.1",
+    "encoder.layers.1.self_attn.linears.0",
+    "encoder.layers.1.self_attn.linears.1",
+    "encoder.layers.1.self_attn.linears.2",
+    "encoder.layers.1.self_attn.linears.3",
+    "encoder.layers.1.feed_forward.linears.0",
+    "encoder.layers.1.feed_forward.linears.1"
+   ],
+   "dense_layer_params": 789504,
+   "tt_layer_params": 5376,
+   "layer_compression": 146.85714285714286,
+   "dense_total_params": 799233,
+   "tt_total_params": 15105,
+   "tt_trainable_params": 15105,
+   "model_compression": 52.91181727904667,
+   "untouched_params": 9729
+  },
+  "4": {
+   "n_layers": 12,
+   "paths": [
+    "encoder.layers.0.self_attn.linears.0",
+    "encoder.layers.0.self_attn.linears.1",
+    "encoder.layers.0.self_attn.linears.2",
+    "encoder.layers.0.self_attn.linears.3",
+    "encoder.layers.0.feed_forward.linears.0",
+    "encoder.layers.0.feed_forward.linears.1",
+    "encoder.layers.1.self_attn.linears.0",
+    "encoder.layers.1.self_attn.linears.1",
+    "encoder.layers.1.self_attn.linears.2",
+    "encoder.layers.1.self_attn.linears.3",
+    "encoder.layers.1.feed_forward.linears.0",
+    "encoder.layers.1.feed_forward.linears.1"
+   ],
+   "dense_layer_params": 789504,
+   "tt_layer_params": 10752,
+   "layer_compression": 73.42857142857143,
+   "dense_total_params": 799233,
+   "tt_total_params": 20481,
+   "tt_trainable_params": 20481,
+   "model_compression": 39.02314340120111,
+   "untouched_params": 9729
+  },
+  "8": {
+   "n_layers": 12,
+   "paths": [
+    "encoder.layers.0.self_attn.linears.0",
+    "encoder.layers.0.self_attn.linears.1",
+    "encoder.layers.0.self_attn.linears.2",
+    "encoder.layers.0.self_attn.linears.3",
+    "encoder.layers.0.feed_forward.linears.0",
+    "encoder.layers.0.feed_forward.linears.1",
+    "encoder.layers.1.self_attn.linears.0",
+    "encoder.layers.1.self_attn.linears.1",
+    "encoder.layers.1.self_attn.linears.2",
+    "encoder.layers.1.self_attn.linears.3",
+    "encoder.layers.1.feed_forward.linears.0",
+    "encoder.layers.1.feed_forward.linears.1"
+   ],
+   "dense_layer_params": 789504,
+   "tt_layer_params": 30720,
+   "layer_compression": 25.7,
+   "dense_total_params": 799233,
+   "tt_total_params": 40449,
+   "tt_trainable_params": 40449,
+   "model_compression": 19.75902988949047,
+   "untouched_params": 9729
+  }
+ }
+}
